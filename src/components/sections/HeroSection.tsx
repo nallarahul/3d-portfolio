@@ -72,7 +72,7 @@ const HeroSection = () => {
               Contact Me
             </a>
             <a 
-              href="https://drive.google.com/file/d/1ljPGIAONkSu5aVJ1BLhK4Lmbll9nQBBH/view?usp=drive_link" 
+              href="https://drive.google.com/file/d/1uwXDJwoiwq1hoB7slWuCJ_ESSXAuL6VJ/view?usp=drive_link" 
               target="_blank" 
               rel="noopener noreferrer"
               className="px-6 py-2.5 rounded-lg border border-accent-purple text-white font-medium transition-all duration-300 hover:bg-accent-purple"
