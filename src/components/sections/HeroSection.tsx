@@ -89,7 +89,7 @@ const HeroSection = () => {
             <div className="absolute inset-0"></div>
             {/* Replace with your profile image */}
             <img
-              src="../../../public/my-img.jpg"
+              src="/my-img.jpg"
               alt="Profile"
               className="w-full h-full object-cover"
             />
