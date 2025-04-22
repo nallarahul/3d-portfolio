@@ -196,29 +196,44 @@ const ContactSection = () => {
             </form>
 
             <div className="flex justify-center gap-6 mt-12 pt-8 border-t border-dark-border">
-              <a
-                href="https://github.com/nallarahul"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-accent-purple transition-colors duration-300 hover:shadow-[0_0_15px_rgba(139,92,246,0.5)]"
-              >
-                <Github size={24} className="hover:scale-110 transition-transform duration-300" />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/rahul-nalla/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-accent-purple transition-colors duration-300 hover:shadow-[0_0_15px_rgba(139,92,246,0.5)]"
-              >
-                <Linkedin size={24} className="hover:scale-110 transition-transform duration-300" />
-              </a>
-              <a
-                href="mailto:nallarahul515@gmail.com"
-                className="text-gray-400 hover:text-accent-purple transition-colors duration-300 hover:shadow-[0_0_15px_rgba(139,92,246,0.5)]"
-              >
-                <Mail size={24} className="hover:scale-110 transition-transform duration-300" />
-              </a>
+          {/* GitHub */}
+          <a
+            href="https://github.com/nallarahul"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group"
+          >
+            <div className="w-12 h-12 rounded-full bg-black flex items-center justify-center border border-gray-600 transition duration-300 group-hover:border-purple-500 group-hover:shadow-[0_0_15px_rgba(139,92,246,0.8)]">
+              <Github size={24} className="text-white transition-transform duration-300 group-hover:scale-110" />
             </div>
+          </a>
+
+          {/* LinkedIn */}
+          <a
+            href="https://www.linkedin.com/in/rahul-nalla/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group"
+          >
+            <div className="w-12 h-12 rounded-full bg-black flex items-center justify-center border border-gray-600 transition duration-300 group-hover:border-purple-500 group-hover:shadow-[0_0_15px_rgba(139,92,246,0.8)]">
+              <Linkedin size={24} className="text-white transition-transform duration-300 group-hover:scale-110" />
+            </div>
+          </a>
+
+          {/* Mail - Redirect to Gmail */}
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=nallarahul515@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group"
+          >
+            <div className="w-12 h-12 rounded-full bg-black flex items-center justify-center border border-gray-600 transition duration-300 group-hover:border-purple-500 group-hover:shadow-[0_0_15px_rgba(139,92,246,0.8)]">
+              <Mail size={24} className="text-white transition-transform duration-300 group-hover:scale-110" />
+            </div>
+          </a>
+        </div>
+
+
           </div>
         </div>
       </div>
