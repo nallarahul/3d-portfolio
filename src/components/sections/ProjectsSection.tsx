@@ -20,7 +20,7 @@ const projectsData: Project[] = [
   {
     id: 1,
     title: "PrepWise",
-    description: "an AI-powered mock interview platform where you can generate self customized interviews or an interview completely tailored to your resume.",
+    description: "An AI-powered mock interview platform where you can generate self customized interviews or an interview completely tailored to your resume.",
     image: "/PrepWise.png",
     tags: ["Next.js", "TypeScript", "Firebase"],
     link: "https://prepwisemock.vercel.app/",
@@ -35,11 +35,11 @@ const projectsData: Project[] = [
   },
   {
     id: 3,
-    title: "Keeper App",
-    description: "Enables users to create, manage, and organize notes efficiently.",
-    image: "/Keeper.png",
-    tags: ["React", "HTML", "CSS"],
-    link: "https://keeper-app-henna.vercel.app/",
+    title: "Hedwig",
+    description: "A Real-time Chat Application that helps you talk to your people endlessly.",
+    image: "/Hedwig.png",
+    tags: ["React.js", "MongoDB", "Node.js", "Express.js", "Socket.io"],
+    link: "https://hedwig-chat.vercel.app/",
   },
   {
     id: 4,
@@ -49,14 +49,14 @@ const projectsData: Project[] = [
     tags: ["MS Excel", "Power BI"],
     link: "https://drive.google.com/drive/folders/1uHohW8RT9Itd-2z-nlm1MR6g4Hl91YO0",
   },
-  // {
-  //   id: 5,
-  //   title: "Machine Learning Model",
-  //   description: "Predictive analytics model for customer behavior analysis and segmentation.",
-  //   image: "https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
-  //   tags: ["Python", "Scikit-learn", "Pandas", "Jupyter"],
-  //   link: "#",
-  // },
+  {
+    id: 5,
+    title: "Keeper App",
+    description: "Enables users to create, manage, and organize notes efficiently.",
+    image: "/Keeper.png",
+    tags: ["React", "HTML", "CSS"],
+    link: "https://keeper-app-henna.vercel.app/",
+  },
   // {
   //   id: 6,
   //   title: "Portfolio Website",
